@@ -1,0 +1,43 @@
+.wrapper {
+  //background-image: url('../../public/assets/images/666.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  //background-color: ;
+  background: linear-gradient(
+    70deg,
+    rgba(7, 59, 63, 0.95),
+    rgba(60, 6, 50, 0.95)
+  );
+  background-blend-mode: darken;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  .h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    line-height: 125%;
+    max-width: 70%;
+    letter-spacing: -0.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .h2 {
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    line-height: 125%;
+    //max-width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .canvas {
+    height: 100%;
+  }
+}
